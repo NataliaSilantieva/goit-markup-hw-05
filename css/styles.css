@@ -75,6 +75,7 @@ ul{
 
 header{
     width:1200px;
+    margin:0 auto;
 }
 .upper-logo{
     font-family: Raleway, sans-serif;
@@ -91,12 +92,24 @@ header{
 .upper-logo:focus{
     color: var(--link-color);
 }
-.container nav{
-    display:flex;
-    
-}
- .container{
+
+ nav{
     display: flex;
+}
+.container-nav{
+    display: flex;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+      
+} 
+
+ .container{
+   
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
@@ -240,7 +253,7 @@ address{
 }
 
 
-/*  Герой */
+/* Герой*/
 
 
 
@@ -281,7 +294,7 @@ button{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+    margin:auto;
     
 }
 .hero-title {
@@ -297,7 +310,7 @@ button{
 
     
 }
-/* преимущества */
+/* преимущества*/
 
 
 
@@ -353,12 +366,12 @@ button{
 }
 
 
-<!--Продукты-->
+/* Продукты */
 
 .section{
     letter-spacing: 0.03em;
 
-    display: flex;
+    
     padding-bottom: 94px;
     margin: 0;
 }
@@ -415,26 +428,30 @@ button{
 
 
         padding: 94px 0 50px 0;
-        margin: 0 auto;
-        width:1200px;
+        margin: 0 ;
+        
         
     
     }
     /* Комманда */
 
 
-    ul .team-names{
-        padding: 0;
-        margin: 0;
+   
+.section-team{
+        background-color: var(--buttons-background);
+    
+        margin: auto;
+        padding: 0 0 94px 0;
+        width:1600px;
+        
     }
 .team-names{
     
     line-height: 1.2;
 
   display: flex;
-  width:270px;
-   padding: 0;
-
+  padding: 0 215px 0 215px;
+  margin: 0 ;
 }
 
 .image-team{
@@ -480,14 +497,7 @@ button{
     margin-right: 30px;
 }
 
-.section-team{
-    background-color: var(--buttons-background);
 
-    margin: 0;
-    padding: 0 0 94px 0;
-
-    
-}
 
 
 .social-links{
@@ -545,6 +555,7 @@ button{
     
     flex-wrap: wrap;
     padding: 0 0 94px 0;
+    display: flex;
     
 }
 .products-list{
@@ -659,14 +670,15 @@ margin-bottom: 0;
     color:var(--link-color);
 }
 
-<!--Клиенты-->
+/* Клиенты */
 
-
-.clients .companies-list{
-    margin: 0;
-    padding: 0 0 94px 0 ;
-
+.clients{
+    
+    
+    margin:0;
+    padding:0 215px 0 215px;
 }
+
 .companies-list{
   
     
@@ -711,9 +723,8 @@ margin-bottom: 0;
 /* Футер */
 footer{
     line-height: 2; 
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
+   
+    
     margin: 0 auto; 
 
     background-color:var(--footer-background);  
@@ -723,7 +734,7 @@ footer{
     font-size: 14px;
     line-height: 1.1;
 
-    display: flex;
+    
     padding-bottom: 28px;
    
 }
@@ -736,7 +747,7 @@ footer{
     line-height: 2;
 
     display: flex;
-    padding:48px 15px 24px 15px;
+    padding:48px 0 24px 0;
     margin-left:  auto;
     margin-right: auto;
     align-items: baseline;
