@@ -73,10 +73,7 @@ ul{
 }
 /* Шапка сайта */
 
-header{
-    width:1200px;
-    margin:0 auto;
-}
+
 .upper-logo{
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -99,6 +96,7 @@ header{
 .container-nav{
     display: flex;
     width: 1200px;
+    margin: 0 auto;
    
     align-items: center;
     justify-content: center;
