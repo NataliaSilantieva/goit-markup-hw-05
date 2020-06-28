@@ -864,13 +864,4 @@ footer{
 .mail:focus{
     color: var(--link-color);
 }
-.copyright{
-    color: rgba(255,255,255, 0.4);
-    font-size: 12px;
-    text-align: center;
-    background-color:var(--footer-background);
 
-    
-    margin: 0 auto ;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
